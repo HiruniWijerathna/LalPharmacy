@@ -1,54 +1,144 @@
-.about{
-    margin: 100px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
+.about-section {
+  width: 90%;
+  margin: 100px auto;
+  text-align: center;
+  color: #222;
+  font-family: 'Poppins', sans-serif;
 }
 
-.about-left{
-    flex-basis: 40%;
+.about-heading {
+  font-size: 48px;
+  color: #004922;
+  margin-bottom: 60px;
+  position: relative;
+  font-weight: 700;
 }
 
-.about-right{
-    flex-basis:56% ;
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.about-img{
-    width: 100%;
-    border-radius: 10px;
+.about-left {
+  flex-basis: 45%;
+  position: relative;
 }
 
-.about h3{
-    font-weight: 600;
-    font-size: 17px;
-    color: rgb(0, 73, 34);
+.about-img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s;
 }
 
-.about h2{
-    font-size: 35px;
-    color: rgb(0, 142, 24);
-    margin: 10px 0;
-    max-width:700px;
+.about-img:hover {
+  transform: scale(1.05);
 }
 
-.about p{
-    color: rgb(0, 73, 34);
-    margin-bottom: 15px;
+/* Floating Experience Badge */
+.experience-badge {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #004922;
+  color: #fff;
+  padding: 25px 30px;
+  border-radius: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  animation: float 4s infinite;
 }
 
-/* --- media query ---*/
+.experience-badge span {
+  color: #ffdd57;
+  font-size: 36px;
+}
 
-@media(max-width: 800px){
-  .about{
+/* Floating Animation */
+@keyframes float {
+  0% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-10px); }
+  100% { transform: translateX(-50%) translateY(0); }
+}
+
+.about-right {
+  flex-basis: 50%;
+  text-align: left;
+}
+
+.about-right h2 {
+  color: #004922;
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.about-right p {
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.highlight {
+  color: #004922;
+  font-weight: 600;
+}
+
+strong {
+  color: #004922;
+}
+
+
+
+/* Opening Hours Styling */
+.opening-hours {
+  background-color: #f0f8f5;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+  box-shadow: 0 5px 15px rgba(0, 73, 34, 0.2);
+}
+
+.opening-hours h3 {
+  color: #004922;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.opening-hours p {
+  font-size: 18px;
+  color: #333;
+}
+
+.opening-hours span {
+  font-weight: bold;
+  color: #004922;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-container {
     flex-direction: column;
+    text-align: center;
   }
-  .about-left{
+
+  .about-left, .about-right {
     flex-basis: 100%;
-    margin: 20px;
-    order: 2;
   }
-  .about-right{
-    flex-basis: 100%;
+
+  .experience-badge {
+    position: static;
+    transform: none;
+    margin: 20px auto;
+    display: inline-block;
+    
+  }
+
+  .about-heading {
+    font-size: 36px;
   }
 }

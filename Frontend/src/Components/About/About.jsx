@@ -1,25 +1,38 @@
-import React from 'react'
-import './About.css'
-import about_img from '../../assets/about.jpg'
+import React from 'react';
+import './About.css';
+import about_img from '../../assets/about.jpg';
 
 const About = () => {
-  return (
-    <div className='about'>
-        <div className="about-left">
-            <img src={about_img} alt="" className='about-img' />
-           
-        </div>
-        <div className="about-right">
-            <h3>About Us</h3>
-            <h2>Genuine medicines, Health products, and channeling services — All in one place.</h2>
-            <p>LAL Pharmacy & Channeling Service has proudly served the Welimada community for over 32 years, becoming a trusted name in healthcare and wellness.</p>
-            <p>As one of the leading businesses in the area, we are committed to meeting the pharmaceutical and healthcare needs of our people.</p>
-            <p>With strong business expertise and a friendly approach, our team ensures every customer receives the best care and service. </p>
-            <p>We work closely with our staff to create a welcoming environment where your health is our top priority.</p>
-        </div>
-      
-    </div>
-  )
-}
+  const currentYear = new Date().getFullYear();
+  const yearsOfService = currentYear - 1992;
 
-export default About
+  return (
+    <div className='about-section' id='about'>
+      <h1 className='about-heading'>About Us</h1>
+
+      <div className='about-container'>
+        <div className="about-left">
+          <img src={about_img} alt="LAL Pharmacy" className='about-img' />
+          <div className="experience-badge">
+            <span>{yearsOfService}+</span> Years of <br /> Excellence
+          </div>
+        </div>
+
+        <div className="about-right">
+          <h2>Your Trusted Healthcare Partner in Welimada 🌿</h2>
+          <p><span className='highlight'>LAL Pharmacy & Channeling Service</span> has been serving the community since <strong>1992</strong>, offering a wide range of healthcare products and services designed to care for your health and well-being.</p>
+          <p>We provide everything from <strong>genuine medicines</strong> and <strong>medical equipment</strong> to <strong>doctor channeling services</strong> and <strong>special healthcare support</strong>, all under one roof.</p>
+          <p>Our dedicated and professional team is always ready to serve you with care, compassion, and commitment.</p>
+
+          <div className="opening-hours">
+            <h3>🕒 Opening Hours</h3>
+            <p>Open Daily: <span>7.00 AM - 9.00 PM</span></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;

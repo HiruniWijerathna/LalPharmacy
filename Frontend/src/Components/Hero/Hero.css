@@ -1,7 +1,7 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background:linear-gradient(rgba(0, 35, 20, 0.7),rgba(60, 0, 0, 0.7)), url('../../assets/image4.jpg');
+    background:linear-gradient(rgba(0, 18, 8, 0.7),rgba(33, 0, 0, 0.7)), url('../../assets/image4.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -18,7 +18,7 @@
 .hero-text h1{
     font-size: 60px;
     font-weight: 700;
-    color: rgb(241, 255, 230);
+    color: rgb(145, 255, 122);
 }
 
 .hero-text h2{

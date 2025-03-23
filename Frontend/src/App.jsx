@@ -1,0 +1,29 @@
+import React from 'react'
+import Navbar from './Components/Navbar/Navbar'
+import Hero from './Components/Hero/Hero'
+import Programs from './Components/Programs/Programs'
+import Title from './Components/Title/Title'
+import About from './Components/About/About'
+import Contact from './Components/contact/Contact'
+import Footer from './Components/Footer/Footer'
+import Chanaling from './Components/Chanaling/Chanaling'
+
+const App = () => {
+  return (
+    <div>
+     <Navbar/>
+     <Hero/>
+     <div className="container">
+      <Title/>
+      <Programs/>
+     </div>
+     <About/>
+     <Contact/>
+     <Footer/>
+
+     <Chanaling/>
+    </div>
+  )
+}
+
+export default App

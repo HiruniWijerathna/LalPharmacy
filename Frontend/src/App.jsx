@@ -6,7 +6,7 @@ import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Contact from './Components/contact/Contact'
 import Footer from './Components/Footer/Footer'
-import Chanaling from './Components/Chanaling/Chanaling'
+
 
 const App = () => {
   return (
@@ -21,7 +21,6 @@ const App = () => {
      <Contact/>
      <Footer/>
 
-     <Chanaling/>
     </div>
   )
 }

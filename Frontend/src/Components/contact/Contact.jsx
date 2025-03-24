@@ -5,6 +5,7 @@ import msg_icon2 from '../../assets/iconcal.png';
 import msg_icon3 from '../../assets/iconwht.png';
 import msg_icon4 from '../../assets/iconmai.png';
 import msg_icon5 from '../../assets/iconloc.png';
+import msg_icon6 from '../../assets/iconlan.png';
 import fb_icon from '../../assets/fb.png';
 
 const Contact = () => {
@@ -39,24 +40,63 @@ const Contact = () => {
 
             <div className="contact2">
                 {/* Left Column: Contact Info */}
-                <div className="contact-col">
-                    <ul>
-                        <li><img src={msg_icon2} alt="" /><a href="tel:+947658623566">076 58623566</a></li>
-                        <li><img src={msg_icon2} alt="" /><a href="tel:+947658623567">076 58623567</a></li>
-                        <li><img src={msg_icon2} alt="" /><a href="tel:+947658623568">076 58623568</a></li>
-                        <li><img src={msg_icon3} alt="" /><a href="https://wa.me/947658623566" target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp</a></li>
-                        <li><img src={msg_icon4} alt="" /><a href="mailto:info@lalpharmacy.com">info@lalpharmacy.com</a></li>
-                        <li className="fb-link">
-                            <img src={fb_icon} alt="Facebook" />
-                            <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer">
-                                Follow us on Facebook
-                            </a>
-                        </li>
-                    </ul>
+                <div className="contact-col1">
+                    <div className='contact4'>
+                        <div className='box1'>
+                                <img src={msg_icon2} alt="" />
+                            <div className='numlist'>
+                                <ul>
+                                <li><a href="tel:+94702377797">070 2377797</a></li>
+                                <li><a href="tel:+94772849513">077 2849513</a></li>
+                                <li><a href="tel:+94707317319">070 7317319</a></li>
+                                <li><a href="tel:+94777879339">077 7879339</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className='box1'>
+                                <img src={msg_icon6} alt="" />
+                            <div className='numlist'>
+                                <ul>
+                                <li><a href="tel:+94572245472">057 2245472</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className='box1'>
+                                <img src={msg_icon3} alt="" />
+                            <div className='whatlist'>
+                                <ul>
+                                <li><a href="https://wa.me/94777879339" target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className='box1'>
+                                <img src={msg_icon4} alt="" />
+                            <div className='maillist'>
+                                <ul>
+                                <li><a href="mailto:info@lalpharmacy.com">info@lalpharmacy.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className='box1'>
+                                 <img src={fb_icon} alt="Facebook" />
+                            <div className='fblist'>
+                                <ul>
+                                <li><a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer">
+                                Follow us on Facebook</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                </div>
 
                     {/* Google Map Embed */}
                     <div className="map-container">
-                        <h3><img src={msg_icon5} alt="" /> Location</h3>
+                        <h3><img src={msg_icon5} alt="" /> No 08, Lal Pharmacy Welimada, Uva Province, 90200 Sri Lanka</h3>
                         <iframe
                             title="Google Map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.377704505256!2d-74.00594108459482!3d40.71277597933042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMzYuNyJX!5e0!3m2!1sen!2sus!4v1645634334746!5m2!1sen!2sus"
@@ -71,16 +111,16 @@ const Contact = () => {
                 </div>
 
                 {/* Right Column: Contact Form */}
-                <div className="contact-col">
+                <div className="contact-col3">
                     <h3>Send Us a Message <img src={msg_icon1} alt="" /></h3>
                     <form onSubmit={onSubmit}>
-                        <label>Your Name</label>
+                        
                         <input type="text" name="name" placeholder="Enter Your Name" required />
 
-                        <label>Phone Number</label>
+                        
                         <input type="tel" name="phone" placeholder="Enter Your Mobile" required />
 
-                        <label>Write your message here</label>
+                        
                         <textarea name="message" rows="10" placeholder="Enter Your Message" required></textarea>
 
                         <button type="submit" className="btn dark-btn">Submit</button>

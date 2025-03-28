@@ -36,7 +36,7 @@ const Contact = () => {
 
     return (
         <div className="contact">
-            <h2>Get in Touch With Us</h2>
+            <h2>Contact Us</h2>
 
             <div className="contact2">
                 {/* Left Column: Contact Info */}
@@ -101,7 +101,7 @@ const Contact = () => {
                             title="Google Map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.377704505256!2d-74.00594108459482!3d40.71277597933042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMzYuNyJX!5e0!3m2!1sen!2sus!4v1645634334746!5m2!1sen!2sus"
                             width="100%"
-                            height="300"
+                            height="450"
                             style={{ border: 0 }}
                             allowFullScreen=""
                             loading="lazy"

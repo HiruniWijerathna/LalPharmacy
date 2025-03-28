@@ -1,13 +1,14 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background:linear-gradient(rgba(0, 18, 8, 0.7),rgba(33, 0, 0, 0.7)), url('../../assets/image4.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(91, 83, 83, 0.7)), url('../../assets/image.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .hero-text{
@@ -71,3 +72,14 @@
         font-size: 18px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+

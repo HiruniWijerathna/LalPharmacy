@@ -8,7 +8,7 @@
 }
 
 body{
-    background: linear-gradient(to top, #ffffff, #ffffff);
+    background: linear-gradient(to top, #ffffff, #fff);
 }
 
 :root{
@@ -24,6 +24,8 @@ a{
     line-height:1 ;
     cursor: pointer;
 }
+
+
 
 .container{
     padding-left: 8%;

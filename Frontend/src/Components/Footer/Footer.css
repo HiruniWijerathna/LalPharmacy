@@ -5,6 +5,7 @@
     justify-content: space-between;
     border-top: ipx solid #797979;
     padding: 15px 0;
+    background:linear-gradient(rgba(247, 255, 254, 0.7),rgba(255, 255, 255, 0.7),rgba(207, 251, 241, 0.7),rgba(128, 198, 182, 0.7))
 }
 
 .footer ul li{

@@ -1,13 +1,18 @@
-.about-section {
-  width: 90%;
-  margin: 100px auto;
+.about-section{
+  width: 100%;
+  min-height: 100vh;
+  background:linear-gradient(rgba(247, 255, 254, 0.7),rgba(255, 255, 255, 0.7),rgba(207, 251, 241, 0.7),rgba(128, 198, 182, 0.7));
+  background-size: cover;
+  background-position: center;
+  color: white;
   text-align: center;
-  color: #222;
+  padding: 30px 10px;
+  margin: 40px auto;
   font-family: 'Poppins', sans-serif;
 }
 
 .about-heading {
-  font-size: 48px;
+  font-size: 40px;
   color: #004922;
   margin-bottom: 60px;
   position: relative;
@@ -24,6 +29,7 @@
 .about-left {
   flex-basis: 45%;
   position: relative;
+  margin: 15px;
 }
 
 .about-img {
@@ -61,18 +67,19 @@
 /* Floating Animation */
 @keyframes float {
   0% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(-10px); }
+  50% { transform: translateX(-50%) translateY(-50px); }
   100% { transform: translateX(-50%) translateY(0); }
 }
 
 .about-right {
   flex-basis: 50%;
   text-align: left;
+  margin: 15px;
 }
 
 .about-right h2 {
   color: #004922;
-  font-size: 34px;
+  font-size: 30px;
   margin-bottom: 25px;
 }
 

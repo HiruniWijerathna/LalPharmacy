@@ -8,7 +8,7 @@ const About = () => {
 
   return (
     <div className='about-section' id='about'>
-      <h1 className='about-heading'>About Us</h1>
+      <h1 className='about-heading'>ABOUT US</h1>
 
       <div className='about-container'>
         <div className="about-left">

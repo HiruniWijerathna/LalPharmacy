@@ -1,7 +1,7 @@
 
 .programs {
     margin: 80px auto;
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,7 @@
 }
 
 .program-box {
-    background-color: #f5feff;
+    background-color: #f1fffc;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -39,7 +39,7 @@
 .program p {
     font-size: 17px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 15px;
     align-items: center;
 
@@ -56,12 +56,12 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(rgba(103, 175, 134, 0.7),rgba(163, 97, 97, 0.458));
+    background: linear-gradient(rgba(0, 18, 1, 0.7),rgba(15, 0, 0, 0.458));
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     opacity: 0;
     padding-top: 70%;

@@ -1,15 +1,20 @@
 /* Contact Section */
-
-
-.contact {
-    margin: 40px auto;
-    max-width: 1100px;
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(247, 255, 254, 0.7),rgba(255, 255, 255, 0.7),rgba(207, 251, 241, 0.7),rgba(128, 198, 182, 0.7));
+    background-size: cover;
+    background-position: center;
+    color: white;
     text-align: center;
     padding: 30px 10px;
+    margin: 40px auto;
 }
 
+
+
 .contact h2 {
-    font-size: 32px;
+    font-size: 40px;
     color: #004922;
     font-weight: 700;
     margin-bottom: 25px;
@@ -40,6 +45,17 @@
 
    }
 
+   
+.contact2 {
+    margin: 40px auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 30px 10px;
+    justify-content: center;
+    display: flex;
+    
+}
+
 .contact-col1 {
     flex: 1;
     min-width: 280px;
@@ -52,7 +68,7 @@
 .contact-col1 h3 {
     color: #004922;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 17px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -125,12 +141,15 @@
 
 .contact-col3{
     align-items: center;
-    background-color: #f0f8f5;
+   
     padding: 15px;
     margin: 10px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
     transition: transform 0.2s ease-in-out;
+    justify-content: center;
+    
+
 }
 
 .contact-col3 h3{

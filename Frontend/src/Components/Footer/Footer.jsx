@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <p>© 2025 LAL Pharmacy - All Rights Reserved</p>
-        <div className='box1'>
+        <div className='box5'>
          <img src={fb_icon} alt="Facebook" />
             <div className='fblist'>
              <ul>

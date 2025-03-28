@@ -243,6 +243,32 @@
     .contact form {
         width: 100%;
     }
+
+    .box1 {
+        display: flex;
+        align-items: center;
+        background-color:  #004922;
+        color: white;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+        width: 100%;
+         
+       }
+       .contact4{
+        width: 100%;
+       }
+
+       .contact-col1 ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+    }
+    
+    
 }
 
 

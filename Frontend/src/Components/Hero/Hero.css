@@ -71,6 +71,20 @@
     .hero-text h3{
         font-size: 18px;
     }
+
+    .hero{
+        width: 100%;
+        min-height: 90vh;
+        background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(91, 83, 83, 0.7)), url('../../assets/image.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        
+        align-items: center;
+        justify-content: center;
+        clip-path: ellipse(100% 50% at 50% 50%);
+        
+    }
 }
 
 

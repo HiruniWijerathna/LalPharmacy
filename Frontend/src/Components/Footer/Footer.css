@@ -14,7 +14,7 @@
     margin-left: 20px;
 }
 
-.box1 img{
+.box5 img{
     width: 30px;
     margin-right: 12px;
 
@@ -33,5 +33,26 @@
     }
     .footer ul{
         margin-top: 10px;
+    }
+    .box5 {
+        display: flex;
+        align-items: center;
+        background-color:  #e0fff9;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+        width: 80%;
+         
+       }
+
+    .fblist ul li a {
+        
+        text-decoration: none;
+        color: #001902;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
     }
 }
